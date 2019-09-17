@@ -1,0 +1,21 @@
+.musicInfo {
+    display: flex;
+    margin: 10px 20px;
+    cursor: pointer;
+    img {
+        width: 140px;
+        height: 140px;
+    }
+    h4 {
+        margin: 10px;
+        font-size: 28px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    p {
+        margin: 10px;
+        font-size: 20px;
+        color: #888888;
+    }
+}

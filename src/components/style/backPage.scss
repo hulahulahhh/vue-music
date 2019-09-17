@@ -1,0 +1,11 @@
+.backPage {
+    display: flex;
+    justify-content: space-between;
+    .title {
+        width: 100vw;
+        color: white;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}

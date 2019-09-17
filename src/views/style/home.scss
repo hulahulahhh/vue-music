@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    .title {
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        img {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            top: 10px;
+            left: 20px;
+        }
+    }
+    .content {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        .swiper {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .musicList {
+            height: 160px;
+        }
+    }
+    .audio {
+        height: 100px;
+    }
+}

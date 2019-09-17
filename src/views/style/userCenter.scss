@@ -1,0 +1,39 @@
+.userCenter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffffff;
+  .switchWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .back {  
+      position: absolute;
+      left: 0;
+      top: 20px;  
+      width: 40px;
+      height: 60px;  
+      background-image: url("../assets/back.png");
+      background-repeat: no-repeat;
+      background-size: 60px 100%;
+      background-position: center left;
+    }
+    .switch {
+      width: 240px;
+      text-align: center;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      background: #f5f5f5;
+      color: #888888;
+    }
+    .active {
+      background: #888888;
+      color: #ffffff;
+    }
+  }
+  .musicList {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.tab {
+    display: flex;
+    background: #fbfbfb;
+    div {
+        flex: 1;
+        text-align: center;
+        font-size: 24px;
+        height: 60px;
+        line-height: 60px;
+        color: rgba(0, 0, 0, .6);
+    }
+    .currTab {
+        color: #31c27c;
+        border-bottom: 2px solid #31c27c; /*no*/
+    }
+}

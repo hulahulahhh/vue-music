@@ -1,0 +1,33 @@
+.topItem {
+  display: flex;
+  margin: 20px;
+  height: 200px;
+  .icon {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .text {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px 30px;
+    .name {
+      font-size: 24px;
+      height: 52px;
+      line-height: 52px;
+      color: #666666;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
