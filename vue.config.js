@@ -11,9 +11,6 @@ const projectConfig = require('./project-config');
 // const appServerHost = process.env.APP_HOST;
 // const APP_NS = process.env.APP_NS;
 
-console.log('hello');
-
-
 module.exports = {
 //   baseUrl: isDev
 //   ? '/'
@@ -24,11 +21,6 @@ module.exports = {
    */
   // prettier-ignore
   chainWebpack(webpackConfig) {
-    const context = webpackConfig.store.get('context');
-    const resolve = (...paths) => path.resolve(context, ...paths);
-
-    // console.log(webpackConfig)
-
     // --------- Rem ---------
     webpackConfig.when(typeof projectConfig.css.rem === 'object', config => {
       config

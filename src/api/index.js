@@ -1,4 +1,4 @@
-let backendServer = 'http://192.168.1.102:3000'
+let backendServer = 'http://localhost:3000'
 
 export default {
     test: `${backendServer}/test`,
