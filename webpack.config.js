@@ -19,14 +19,19 @@ module.exports = {
         use: "vue-loader"
       },
       {
+        test: /\.js$/,
+        use: 'babel-loader'
+      },
+      {
         test: /\.(png|jpg|svg|gif)$/,
         use: "url-loader"
       },
       {
         test: /\.scss$/,
-        use: ["vue-style-loader", "css-loader", "sass-loader"]
+        use: ["vue-style-loader", "css-loader", "postcss-loader", "sass-loader"]
       },
       {
+        // style-loader用处？  
         test: /\.css$/,
         use: ["css-loader"]
       }
